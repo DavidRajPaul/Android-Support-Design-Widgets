@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_dashboard"
+        android:checked="true"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/dashboard"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_counter"
+        android:checked="false"
+        android:icon="@drawable/ic_counter"
+        android:title="@string/counter"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_recent"
+        android:checked="false"
+        android:icon="@drawable/ic_recent"
+        android:title="@string/recents"
+        app:showAsAction="ifRoom" />
+</menu>
